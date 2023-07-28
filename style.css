@@ -281,19 +281,19 @@ span {
     margin-top: 5%;
 }
 
-.dog-container {
+.animal-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 5%;
 }
 
-.dog-container div {
+.animal-container div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.dog-container p {
+.animal-container p {
     margin: 10%;
     text-align: center;
 }
