@@ -1,0 +1,13 @@
+:root {
+    --hero-main-text: 48px;
+    --hero-secondary-text: 18px;
+    --information-header-text: 36px;
+    --header-logo-text: 24px;
+
+    --dark-background-color: #1F2937;
+    --hero-main-color: #F9FAF8;
+    --hero-secondary-color: #E5E7EB;
+    --button-color: #3882F6;
+    --information-header-color: #1F2937;
+
+}
