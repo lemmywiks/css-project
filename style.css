@@ -1,0 +1,205 @@
+:root {
+    --hero-main-text: 48px;
+    --hero-secondary-text: 18px;
+    --information-header-text: 36px;
+    --header-logo-text: 24px;
+
+    --dark-background-color: #1F2937;
+    --hero-main-color: #F9FAF8;
+    --hero-secondary-color: #E5E7EB;
+    --button-color: #3882F6;
+    --information-header-color: #1F2937;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto-Extra-Bold';
+    src: url('./fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'Roboto-Light-Italic';
+    src: url('./fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-style: italic, oblique;
+    font-weight: lighter;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 10%;
+    background-color: var(--dark-background-color);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+h1 {
+    margin-bottom: 10px;
+    color: var(--hero-main-color);
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: var(--hero-main-text);
+}
+span {
+    font-family: 'Roboto-Bold';
+}
+.logo {
+    width: 100px;
+    height: 50px;
+    color: var(--hero-main-color);
+    font-size: var(--header-logo-text);
+}
+.menu {
+    display: flex;
+    color: var(--hero-secondary-color);
+    font-size: var(--hero-secondary-text);
+}
+.menu-link {
+    margin-right: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin-top: 5%;
+}
+.title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-content p {
+    margin-top: 10px;
+    margin-right: 10px;
+    color: var(--hero-secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--hero-secondary-text);
+}
+.image-background {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: var(--hero-secondary-color);
+}
+.title-content button {
+    margin-top: 15px;
+    padding: 5px 20px;
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--hero-secondary-color);
+}
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.wrap {
+    width: 50%;
+}
+.information {
+    text-align: center;
+    font-family: 'Roboto-Extra-Bold', sans-serif;
+    font-size: var(--information-header-text);
+    color: var(--dark-background-color);
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 5%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--hero-secondary-text);
+}
+.image {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: auto;
+    margin-top: 7%;
+    background-color: var(--hero-secondary-color);
+}
+.quote {
+    padding: 5% 15%;
+    font-family: 'Roboto-Light-Italic', sans-serif;
+    font-size: var(--information-header-text);
+}
+.author {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: var(--header-logo-text);
+}
+.sign-up {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 0;
+    width: 65%;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    color: var(--hero-main-color);
+    font-family: 'Roboto', sans-serif;
+}
+.sign-up-button button{
+    padding: 5px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--hero-secondary-color);
+}
+.footer-wrap {
+    background-color: var(--dark-background-color);
+    color: var(--hero-secondary-color);
+    text-align: center;
+    margin-top: 5%;
+    padding: 2.5%;
+  }
