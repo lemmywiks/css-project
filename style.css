@@ -45,8 +45,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2% 10%;
+    padding: 1% 10%;
     background-color: var(--dark-background-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 nav {
     display: flex;
@@ -67,6 +71,7 @@ span {
     height: 50px;
     color: var(--hero-main-color);
     font-size: var(--header-logo-text);
+    margin-left: 20px;
 }
 .menu {
     display: flex;
@@ -79,8 +84,9 @@ span {
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 5%;
-    margin-top: 5%;
+    padding: 5% 15%;
+    background-color: var(--dark-background-color);
+    margin-top: 4%;
 }
 .title {
     flex: 1;
