@@ -295,28 +295,20 @@ a:hover {
     margin: 0 2%;
 }
 .breeds-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 5%;
+    padding-block: 1rem;
+    margin-block: 3rem;
 }
 
-.animal-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.animal-container div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.animal-container p {
-    margin: 10%;
+.breeds-container  h3{
     text-align: center;
+    color: var(--dark-background-color);
+    margin-block-end: 3rem;
+    font-size: var(--information-header-text);
+}
+
+.breeds-title {
+    text-align: center;
+    padding-block: 1rem;
 }
 
 /* cat style  */
