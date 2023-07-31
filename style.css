@@ -16,6 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+ 
 }
 
 /* home page style */
@@ -33,6 +34,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -45,7 +47,7 @@ a:hover {
 }
 
 .home-title {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--hero-main-color);
     font-family: 'Roboto-Bold', sans-serif;
     font-size: var(--hero-main-text);
@@ -57,14 +59,24 @@ a:hover {
 }
 
 .menu {
+    list-style: none;
     margin-left: auto;
     display: flex;
+    gap: 1rem;
     color: var(--hero-secondary-color);
     font-size: var(--hero-secondary-text);
 }
+.menu a {
+    color: var(--hero-main-color);
+    text-decoration: transparent;
+    padding: 0.5rem;
+    transition: background-color 0.5s;
+}
 
-.menu-link {
-    margin-right: 20px;
+.menu a:hover {
+    color: var(--dark-background-color);
+    background-color: var(--button-color);
+    padding: 0.5rem
 }
 
 .hero {
@@ -77,27 +89,16 @@ a:hover {
     background-color: var(--dark-background-color);
 }
 
-.title {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-}
-
 .title-content p {
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 0,5rem;
     color: var(--hero-secondary-color);
     font-family: 'Roboto', sans-serif;
     font-size: var(--hero-secondary-text);
 }
-
-.image-background {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
+.image-background img{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
 }
 
 .image-background img {
@@ -107,8 +108,8 @@ a:hover {
 }
 
 .title-content button {
-    margin-top: 15px;
-    padding: .7rem 2.5rem;
+    margin-top: 1rem;
+    padding: 5px 20px;
     background-color: var(--button-color);
     border: none;
     border-radius: 5px;
@@ -121,8 +122,9 @@ a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 7rem 20rem;
-    scroll-margin-top: 5.3rem;
+    margin-block: 3rem;
+    padding-inline: 20rem
+    
 }
 
 .information {
@@ -134,9 +136,9 @@ a:hover {
 
 .box-container {
     display: flex;
-    gap: 7rem;
+    gap: 0.5rem;
     align-items: center;  
-    margin-top: 5%;
+    margin-top: 4rem;
 }
 
 .box {
@@ -148,12 +150,10 @@ a:hover {
     font-family: 'Roboto', sans-serif;
     font-size: var(--hero-secondary-text);
 }
-
 .box img {
-    height: 200px;
-    width: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
-    margin-bottom: 5%;
     object-fit: cover;
 }
 
@@ -175,7 +175,7 @@ a:hover {
 }
 
 .sign-up {
-    margin-block: 7rem;
+    margin-block: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,7 +185,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 2% 5%;
+    padding: 1rem 0;
     width: 65%;
     border-radius: 5px;
     background-color: var(--button-color);
@@ -221,94 +221,14 @@ a:hover {
     background-color: var(--dark-background-color);
     color: var(--hero-secondary-color);
     text-align: center;
-    padding: 2.5%;
-}
-
-/* parrot style  */
-.parrot-banner {
-    margin-block-end: 2rem;
-}
-
-.parrot-banner img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
-
-.parrot-banner h2 {
-    text-align: center;
-    padding-block: 1rem;
-    font-size: var(--hero-main-text);
-    font-weight: 900;
-}
-
-.parrot-banner p {
-    padding-inline: 10rem;
-}
-
-.parrot-card {
-    padding-block: 1rem;
-    margin-block: 3rem;
-}
-
-.parrot-card h3 {
-    text-align: center;
-    color: var(--dark-background-color);
-    margin-block-end: 3rem;
-    font-size: var(--information-header-text);
-}
-
-.parrot-title {
-    text-align: center;
-    padding-block: 1rem;
-    
-}
-/* dog style */
-.big-photo {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--light-background-color);
-}
-.info-container h1 {
-    margin-bottom: 5%;
-    color: var(--dark-background-color);
-    text-align: center;
-    font-family: 'Roboto-Bold', sans-serif;
-    font-size: var(--information-header-text);
-}
-.info-container p {
-    margin: 0 2%;
-}
-.breeds-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 5%;
-}
-
-.animal-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.animal-container div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.animal-container p {
-    margin: 10%;
-    text-align: center;
-}
+    padding: 2rem;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+  }
 
 /* cat style  */
-
+ .cat-body {
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+ }
 .cat-banner {
     margin-block-end: 2rem;
   }
@@ -404,6 +324,198 @@ a:hover {
       color: var(--hero-secondary-color)
   
   }
+
+  /* dog style */
+.big-photo {
+    margin-block-end: 2rem;
+}
+
+.big-photo img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.dog-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.dog-info-container h1 {
+    margin-bottom: 3%;
+    color: var(--dark-background-color);
+    text-align: center;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: var(--information-header-text);
+}
+.dog-info-container p {
+    margin: 0 2%;
+}
+.breeds-container {
+    padding-block: 1rem;
+    margin-block: 3rem;
+}
+
+.breeds-container  h3{
+    text-align: center;
+    color: var(--dark-background-color);
+    margin-block-end: 3rem;
+    font-size: var(--information-header-text);
+}
+
+.breeds-title {
+    text-align: center;
+    padding-block: 1rem;
+}
+
+/* parrot style  */
+
+.parrot-banner {
+    margin-block-end: 2rem;
+}
+
+.parrot-banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.parrot-banner h2 {
+    text-align: center;
+    padding-block: 1rem;
+    font-size: var(--hero-main-text);
+    font-weight: 900;
+}
+
+.parrot-banner p {
+    padding-inline: 10rem;
+}
+
+.parrot-card {
+    padding-block: 1rem;
+    margin-block: 3rem;
+}
+
+.parrot-card h3 {
+    text-align: center;
+    color: var(--dark-background-color);
+    margin-block-end: 3rem;
+    font-size: var(--information-header-text);
+}
+
+.parrot-title {
+    text-align: center;
+    padding-block: 1rem;
+    
+}
+
+/* login */
+.login-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-color);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: var(--dark-background-color);
+}
+
+/* signup style */
+  .signup-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-container {
+    width:50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.signup-title {
+  text-align: center;
+}
+
+.signup-form-group {
+  margin-bottom: 2rem;
+}
+
+.signup-form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signup-form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-color);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-form-group button:hover {
+  background-color: var(--dark-background-color);
+}
+
   
   @media screen and (max-width: 400px) {
       .cat-banner > h2 {
@@ -433,11 +545,19 @@ a:hover {
       }
       .hero {
         padding-inline: 1rem;
+        display: flex;
         flex-direction: column;
       }
       
       .info-container {
         padding-inline: 1rem;
+      }
+      .image-background {
+        margin-top: 1rem;
+      }
+
+      .image-background img{
+          width: 100%
       }
 
       .box-container {
@@ -459,6 +579,22 @@ a:hover {
       .sign-up-button button{
         margin-top: 1rem;
       }
+       /* dog-style */
+       .animal-container{
+        flex-direction: column;
+       
+      }
+
+      .dog-info-container {
+        padding-inline: 1rem;
+        justify-content: center;
+      }
+
+      /* parrot-style */
+      .parrot-banner p {
+        padding-inline: 1rem
+
+      }
     }
     
     @media screen and (max-width: 900px) {
@@ -470,11 +606,34 @@ a:hover {
       }
 
       /* home-style */
+      .home-header {
+        padding-inline:1rem
+      }
       .hero {
         padding-inline: 1rem
       }
       .quote-container {
         padding-inline: 1rem
+      }
+
+      /* dog-style */
+      .animal-container{
+       flex-direction: column;
+       
+      }
+
+      .dog-info-container {
+        padding-inline: 1rem
+      }
+      .big-photo {
+        padding-inline: 0;
+        object-fit: unset;
+        height: unset;
+      }
+      /* parrot-style */
+      .parrot-banner p {
+        padding-inline: 1rem
+
       }
     }
 
