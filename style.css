@@ -287,46 +287,46 @@ nav {
 
   /* dog style */
 .big-photo {
-    padding-inline : 10rem;
-    height: 600px;
-
+    margin-block-end: 2rem;
 }
 
 .big-photo img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
 }
-
 .dog-info-container {
-    margin-block: 2rem;
-    padding-inline: 10rem
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
 }
-
 .dog-info-container h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 3%;
     color: var(--dark-background-color);
     text-align: center;
     font-family: 'Roboto-Bold', sans-serif;
     font-size: var(--information-header-text);
 }
-
-.animal-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block: 4rem;
-    padding-inline: 10rem;
-    gap: 2rem
+.dog-info-container p {
+    margin: 0 2%;
+}
+.breeds-container {
+    padding-block: 1rem;
+    margin-block: 3rem;
 }
 
-.animal-container div {
-    display: flex;
-    flex-direction: column;
-}
-.animal-container p {
-    margin-top: 2rem;
+.breeds-container  h3{
     text-align: center;
+    color: var(--dark-background-color);
+    margin-block-end: 3rem;
+    font-size: var(--information-header-text);
+}
+
+.breeds-title {
+    text-align: center;
+    padding-block: 1rem;
 }
 
 /* parrot style  */
