@@ -419,6 +419,7 @@ a:hover {
       color: var(--hero-secondary-color)
   
   }
+  /* signup style */
   .signup-main {
     height: 100vh;
     display: flex;
