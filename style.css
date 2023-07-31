@@ -53,6 +53,16 @@ a:hover {
     font-size: var(--hero-main-text);
 }
 
+.wrap-sign-up {
+  list-style: none;
+}
+.wrap-sign-up a {
+  text-decoration: none;
+  color: white
+}
+.wrap-sign-up > span {
+    font-family: 'Roboto-Bold';
+}
 .logo {
     height: 40px;
     width: 40px;
