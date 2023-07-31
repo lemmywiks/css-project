@@ -386,10 +386,12 @@ a:hover {
     padding-block: 1rem;
     font-size: var(--hero-main-text);
     font-weight: 900;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .parrot-banner p {
     padding-inline: 10rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .parrot-card {
@@ -402,12 +404,13 @@ a:hover {
     color: var(--dark-background-color);
     margin-block-end: 3rem;
     font-size: var(--information-header-text);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .parrot-title {
     text-align: center;
     padding-block: 1rem;
-    
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
 /* login */
