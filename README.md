@@ -31,6 +31,8 @@ Thanks goes to these wonderful people
        <td align="center"><a href ="https://github.com/nanualinav" ><img src="https://avatars.githubusercontent.com/u/22339975?v=4" width="100px;" alt="
 Alina Nanu"/><br /><sub><b>
 Alina Nanu</b></sub></a><br /></td>
-        <td align="center"><a href ="https://github.com/lemmywiks" ><img src="" width="100px;" alt="lemmywiks"/><br /><sub><b>lemmywiks</b></sub></a><br /></td>
+        <td align="center"><a href ="https://github.com/lemmywiks" ><img src="https://github.com/lemmywiks/css-project/assets/81826528/a4d8ca09-95c1-4282-bbc7-fa198ad13289" width="100px;"  alt="lemmywiks"/><br /><sub><b>lemmywiks</b></sub></a><br /></td>
+
+
 
 </table>
