@@ -27,7 +27,10 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href ="https://github.com/josefcode" ><img src="https://avatars.githubusercontent.com/u/81826528?v=4" width="100px;" alt="atef"/><br /><sub><b>Atef Chelaghma</b></sub></a><br /><a>atef.chela@gmail.com</a></td>
-
+    <td align="center"><a href ="https://github.com/josefcode" ><img src="https://avatars.githubusercontent.com/u/81826528?v=4" width="100px;" alt="atef"/><br /><sub><b>Atef Chelaghma</b></sub></a><br /></td>
+       <td align="center"><a href ="https://github.com/nanualinav" ><img src="https://avatars.githubusercontent.com/u/22339975?v=4" width="100px;" alt="
+Alina Nanu"/><br /><sub><b>
+Alina Nanu</b></sub></a><br /></td>
+        <td align="center"><a href ="https://github.com/lemmywiks" ><img src="" width="100px;" alt="lemmywiks"/><br /><sub><b>lemmywiks</b></sub></a><br /></td>
 
 </table>
