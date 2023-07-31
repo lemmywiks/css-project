@@ -41,6 +41,13 @@ nav {
     font-family: 'Roboto-Bold', sans-serif;
     font-size: var(--hero-main-text);
 }
+.wrap-sign-up {
+  list-style: none;
+}
+.wrap-sign-up a {
+  text-decoration: none;
+  color: white
+}
 .wrap-sign-up > span {
     font-family: 'Roboto-Bold';
 }
