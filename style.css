@@ -287,46 +287,46 @@ nav {
 
   /* dog style */
 .big-photo {
-    padding-inline : 10rem;
-    height: 600px;
-
+    margin-block-end: 2rem;
 }
 
 .big-photo img {
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
 }
-
 .dog-info-container {
-    margin-block: 2rem;
-    padding-inline: 10rem
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
 }
-
 .dog-info-container h1 {
-    margin-bottom: 3rem;
+    margin-bottom: 3%;
     color: var(--dark-background-color);
     text-align: center;
     font-family: 'Roboto-Bold', sans-serif;
     font-size: var(--information-header-text);
 }
-
-.animal-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-block: 4rem;
-    padding-inline: 10rem;
-    gap: 2rem
+.dog-info-container p {
+    margin: 0 2%;
+}
+.breeds-container {
+    padding-block: 1rem;
+    margin-block: 3rem;
 }
 
-.animal-container div {
-    display: flex;
-    flex-direction: column;
-}
-.animal-container p {
-    margin-top: 2rem;
+.breeds-container  h3{
     text-align: center;
+    color: var(--dark-background-color);
+    margin-block-end: 3rem;
+    font-size: var(--information-header-text);
+}
+
+.breeds-title {
+    text-align: center;
+    padding-block: 1rem;
 }
 
 /* parrot style  */
@@ -420,6 +420,59 @@ nav {
 }
 
 .form-group button:hover {
+  background-color: var(--dark-background-color);
+}
+
+/* signup style */
+  .signup-main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signup-container {
+    width:50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.signup-title {
+  text-align: center;
+}
+
+.signup-form-group {
+  margin-bottom: 2rem;
+}
+
+.signup-form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signup-form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-color);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-form-group button:hover {
   background-color: var(--dark-background-color);
 }
 

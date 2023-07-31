@@ -1,4 +1,5 @@
-## live link:     <a href="https://64c7db21a98c6419602c7378--chimerical-moonbeam-3900f3.netlify.app/">animals.com </a>
+
+## live link: https://lemmywiks.github.io/css-project/index.html 
 <p align="center">
   <a href="https://codesandbox.io">
    <img width="939" alt="projectfinal" src="https://github.com/lemmywiks/css-project/assets/81826528/8e362714-13db-4e31-96b9-7a4817fa68f1">
