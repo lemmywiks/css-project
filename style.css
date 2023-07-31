@@ -55,6 +55,7 @@ a:hover {
 
 .wrap-sign-up {
   list-style: none;
+  padding-inline: 1rem
 }
 .wrap-sign-up a {
   text-decoration: none;
@@ -627,6 +628,14 @@ a:hover {
       }
       .quote-container {
         padding-inline: 1rem
+      }
+      .sign-up {
+        padding-inline: 1rem;
+      }
+      .wrap-sign-up {
+        padding: 1rem;
+        flex-direction: column;
+        width: 100%;
       }
 
       /* dog-style */
