@@ -28,6 +28,6 @@ Thanks goes to these wonderful people
 <table>
   <tr>
     <td align="center"><a href ="https://github.com/josefcode" ><img src="https://avatars.githubusercontent.com/u/81826528?v=4" width="100px;" alt="atef"/><br /><sub><b>Atef Chelaghma</b></sub></a><br /><a>atef.chela@gmail.com</a></td>
-    <td align="center"><a href="https://github.com/ezioweb"><img src="https://avatars.githubusercontent.com/u/89106482?v=4" width="100px;" alt="Donavon West"/><br /><sub><b>Ezio R. Lorenzetti</b></sub></a><br /><a title="Code">ezioweb@hotmail.com</a></td>
+
 
 </table>
